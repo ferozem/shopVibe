@@ -18,9 +18,6 @@ const Cart = () => {
         <Link to="/shopvibe/products/" className="back-btn">
           Browse Products
         </Link>
-        <a href="/shopvibe/products/" className="back-btn">
-          Browse Products
-        </a>
       </div>
     );
   }
