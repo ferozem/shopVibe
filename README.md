@@ -6,7 +6,7 @@ Welcome to **ShopVibe**, a fully responsive and modern e-commerce frontend built
 
 ## 🚀 Live Demo
 
-**Link:** [https://yourusername.github.io/shopvibe](https://yourusername.github.io/shopvibe)
+**Link:** [https://ferozem.github.io/shopvibe/](https://ferozem.github.io/shopvibe/)
 
 ---
 
@@ -59,7 +59,7 @@ Using: [https://fakestoreapi.com](https://fakestoreapi.com)
 ## 🧪 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/shopvibe.git
+git clone https://github.com/ferozem/shopvibe.git
 cd shopvibe
 npm install
 npm start
@@ -74,7 +74,7 @@ Visit: `http://localhost:3000`
 1. Add this to `package.json`:
 
 ```json
-"homepage": "https://yourusername.github.io/shopvibe"
+"homepage": "https://ferozem.github.io/shopvibe/"
 ```
 
 2. Install GH Pages:
@@ -100,7 +100,7 @@ npm run deploy
 
 ## ✨ Credits
 
-- Design & Development: \[Your Name]
+- Design & Development: \[Feroze Mohammad]
 - Logo Concept: Shopping bag + signal wave ("Vibe")
 - Data: [FakeStoreAPI](https://fakestoreapi.com)
 
