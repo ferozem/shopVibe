@@ -22,23 +22,21 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">
+        <Link to="/shopvibe/">
           <img
             src="assets/shop-vibe-logo.png"
             alt="ShopVibe Logo"
             className="logo-img"
           />
-          <span >ShopVibe</span>
+          <span>ShopVibe</span>
         </Link>
-        {/* <img src={item.image} alt={item.title} /> */}
-        {/* <Link to="/">ShopVibe</Link> */}
       </div>
       <ul className="navbar-links">
         <li>
-          <Link to="/products">Products</Link>
+          <Link to="/shopvibe/products">Products</Link>
         </li>
         <li>
-          <Link to="/cart" className="cart-link">
+          <Link to="/shopvibe/cart" className="cart-link">
             🛒 Cart&nbsp;&nbsp;&nbsp;
             {totalItems > 0 && (
               <span className="cart-badge"> {totalItems}</span>

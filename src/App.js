@@ -14,11 +14,11 @@ function App() {
       <Navbar />
       <main className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<ProductList />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/shopvibe/" element={<Home />} />
+          <Route path="/shopvibe/products" element={<ProductList />} />
+          <Route path="/shopvibe/product/:id" element={<ProductDetail />} />
+          <Route path="/shopvibe/cart" element={<Cart />} />
+          <Route path="/shopvibe/*" element={<NotFound />} />
         </Routes>
       </main>
     </BrowserRouter>

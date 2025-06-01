@@ -14,7 +14,7 @@ const Cart = () => {
       <div className="empty-cart">
         <h2>Your cart is empty 🛒</h2>
         <p>Looks like you haven't added anything yet.</p>
-        <a href="/products" className="back-btn">
+        <a href="/shopvibe/products" className="back-btn">
           Browse Products
         </a>
       </div>
