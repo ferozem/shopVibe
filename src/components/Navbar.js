@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="navbar-logo">
         <Link to="/shopvibe/">
           <img
-            src="assets/shop-vibe-logo.png"
+            src={process.env.PUBLIC_URL + "/assets/shop-vibe-logo.png"}
             alt="ShopVibe Logo"
             className="logo-img"
           />
@@ -33,10 +33,10 @@ const Navbar = () => {
       </div>
       <ul className="navbar-links">
         <li>
-          <Link to="/shopvibe/products">Products</Link>
+          <Link to="/shopvibe/products/">Products</Link>
         </li>
         <li>
-          <Link to="/shopvibe/cart" className="cart-link">
+          <Link to="/shopvibe/cart/" className="cart-link">
             🛒 Cart&nbsp;&nbsp;&nbsp;
             {totalItems > 0 && (
               <span className="cart-badge"> {totalItems}</span>

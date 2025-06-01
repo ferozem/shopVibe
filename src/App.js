@@ -15,9 +15,9 @@ function App() {
       <main className="content">
         <Routes>
           <Route path="/shopvibe/" element={<Home />} />
-          <Route path="/shopvibe/products" element={<ProductList />} />
+          <Route path="/shopvibe/products/" element={<ProductList />} />
           <Route path="/shopvibe/product/:id" element={<ProductDetail />} />
-          <Route path="/shopvibe/cart" element={<Cart />} />
+          <Route path="/shopvibe/cart/" element={<Cart />} />
           <Route path="/shopvibe/*" element={<NotFound />} />
         </Routes>
       </main>
