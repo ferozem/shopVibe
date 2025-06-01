@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../components/CartContext";
 import "../styles/cart.css";
 
@@ -14,6 +15,9 @@ const Cart = () => {
       <div className="empty-cart">
         <h2>Your cart is empty 🛒</h2>
         <p>Looks like you haven't added anything yet.</p>
+        <Link to="/shopvibe/products/" className="back-btn">
+          Browse Products
+        </Link>
         <a href="/shopvibe/products/" className="back-btn">
           Browse Products
         </a>
