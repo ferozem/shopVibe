@@ -6,6 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import { CartProvider } from "./components/CartContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// If redirected from 404.html, fix the pathname
+if (window.location.search.startsWith("?redirect=")) {
+  const redirectPath = window.location.search.replace("?redirect=", "");
+  window.history.replaceState(null, "", redirectPath);
+}
+
 root.render(
   <CartProvider>
     <App />
