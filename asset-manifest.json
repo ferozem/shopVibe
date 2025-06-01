@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shopvibe/static/css/main.d6be3b7a.css",
-    "main.js": "/shopvibe/static/js/main.a9ea05f9.js",
+    "main.js": "/shopvibe/static/js/main.68970e1f.js",
     "static/js/453.11f6bfe5.chunk.js": "/shopvibe/static/js/453.11f6bfe5.chunk.js",
     "index.html": "/shopvibe/index.html",
     "main.d6be3b7a.css.map": "/shopvibe/static/css/main.d6be3b7a.css.map",
-    "main.a9ea05f9.js.map": "/shopvibe/static/js/main.a9ea05f9.js.map",
+    "main.68970e1f.js.map": "/shopvibe/static/js/main.68970e1f.js.map",
     "453.11f6bfe5.chunk.js.map": "/shopvibe/static/js/453.11f6bfe5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6be3b7a.css",
-    "static/js/main.a9ea05f9.js"
+    "static/js/main.68970e1f.js"
   ]
 }
